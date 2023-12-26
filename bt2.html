@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
+<body>
+    <table style="width:30%">
+        <caption><h1>My Store</h1></caption>
+        <tr>
+            <th>Item Photo</th>
+            <th>Name</th>
+            <th>price</th>
+        </tr>
+        <tr>
+            <td><img src="https://i.khoahoc.tv/photos/image/2017/11/16/qua-cam-650.jpg" height="100" width="200"></td>
+            <td>Oranges</td>
+            <td>$1 ea.</td>
+        </tr>
+        <tr>
+            <td><img src="https://th.bing.com/th/id/R.b5995bcfc854137668f9da06aca879c5?rik=LS0BB347USWUlQ&pid=ImgRaw&r=0" height="100" width="200"></td>
+            <td>Bananas</td>
+            <td>$0.75/1b</td>
+        </tr>
+        <tr>
+            <td><img src="https://th.bing.com/th/id/R.33e355c986574e9af2d0b03ce26837a6?rik=4Dx51ItQj7bZwA&pid=ImgRaw&r=0" height="100" width="200"></td>
+            <td>Pomegranates</td>
+            <td>3 for $5</td>
+        </tr>
+        <tr>
+            <td><img src="https://th.bing.com/th/id/OIP.h6zfY9S572hboaXH3vuNHgHaE8?rs=1&pid=ImgDetMain" height="100" width="200"></td>
+            <td>Gummy Bears</td>
+            <td>$6 per bag</td>
+        </tr>
+        <tr>
+            <td><img src="https://th.bing.com/th/id/OIP.kxa6ADHAa27Olnzbxf2K_wHaEK?rs=1&pid=ImgDetMain" height="100" width="200"></td>
+            <td>Broccoli</td>
+            <td>$3 a head</td>
+        </tr>
+    </table>
+    <form>
+        <caption><i><h2>Booking Form</h2></i></caption>
+        <div>
+            <label>Name:</label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label>Email:</label>
+            <input type="email">
+        </div>
+        <br>
+        <div>
+            <label>Phone:</label>
+            <input type="tel" maxlength="10" minlength="1">
+        </div>
+        <br>
+        <div>
+            <label>Date:</label>
+            <input type="date">
+        </div>
+        <br>
+        <div>
+            <label>Time:</label>
+            <input type="time">
+        </div>
+        <br>
+        <div>
+            <label>Number of Guests:</label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <button type="submit">submit</button>
+        </div>
+    </form>
+</body>
+</html>
